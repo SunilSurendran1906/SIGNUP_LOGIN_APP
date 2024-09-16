@@ -130,7 +130,7 @@ class SignupPage extends StatelessWidget {
   }
 }
 
-// Input field widget with modern design
+// Input field
 Widget inputFile({label, obscureText = false}) {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,

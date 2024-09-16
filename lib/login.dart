@@ -22,7 +22,7 @@ class LoginPage extends StatelessWidget {
       ),
       body: Stack(
         children: <Widget>[
-          // Gradient background
+
           Container(
             decoration: BoxDecoration(
               gradient: LinearGradient(
@@ -113,7 +113,7 @@ class LoginPage extends StatelessWidget {
                           ),
                           TextButton(
                             onPressed: () {
-                              // Add navigation to sign-up page here
+                              // Add navigation to sign-up page
                             },
                             child: Text(
                               " Sign up",
